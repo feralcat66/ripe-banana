@@ -41,6 +41,4 @@ module.exports = Router()
       .findByIdAndDelete(req.params.id)
       .then(review => res.send(review))
       .catch(next);
-  })
-
-;
+  });
